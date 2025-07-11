@@ -64,7 +64,7 @@ class WaterMarkGui:
         text_frame = ttk.LabelFrame(function_frame, text="Watermark Text", padding="10")
         text_frame.pack(fill="x", pady=5)
 
-        self.text_var = tk.StringVar(value=self.text) #Can't pass Python variable to widget. Need to use subclasses StringVar
+        self.text_var = tk.StringVar(value=self.text) #StringVar sets default text
         ttk.Entry(text_frame, textvariable=self.text_var).pack(fill="x")
 
         # sliders frame
