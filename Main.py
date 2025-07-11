@@ -5,7 +5,7 @@ import tkinter as tk
 # Main
 if __name__ == "__main__":
     root = tk.Tk()
-    root.minsize(810, 410)
-    root.maxsize(810, 410)
+    root.minsize(660, 410)
+    root.maxsize(660, 410)
     app = WaterMarkGui(root)
     root.mainloop()
